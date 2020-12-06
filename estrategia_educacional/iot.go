@@ -12,7 +12,6 @@ import (
 
 func main() {
 	fmt.Println(avgRotorSpeed("running", 4))
-	// fmt.Println(avgRotorSpeed("malfunctioning", 2))
 	fmt.Println(avgRotorSpeed("stopped", 1))
 }
 
