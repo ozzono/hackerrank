@@ -8,6 +8,7 @@ import (
 
 func main() {
 	fmt.Printf("%+v\n", countSentences([]string{"the", "bats", "tabs", "in", "cat", "act"}, []string{"cat the bats", "in the act", "act tabs in"}))
+	fmt.Printf("%+v\n", countSentences([]string{"the", "bats", "tabs", "in", "cat", "act"}, []string{"cat the bats tsab", "in the act", "act tabs in"}))
 }
 
 func countSentences(wordSet []string, sentences []string) []int64 {

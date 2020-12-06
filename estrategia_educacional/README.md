@@ -1,5 +1,5 @@
 ## This repository contains the [hacker rank](hackerrank.com/) code challenge set
-Unfortunetly I was able to complete the challenge with about 40 more minutes and I admit it took me a while to understand what had to be done.
+Unfortunetly I was able to complete the challenge with about 40 more minutes and I admit it took me a while to understand what had to be done. Since I only ran some few tests within hacker rank, I'm not able to say for sure if was needed to consider multiple anagrams within the same sentece, but the code in this repository treats it properly.
 Yet, I hope that is not enough to underrate my habilities or the test itself.
 ### To run this test, assuming Go is already installed, just run `go run iot.go` or `go run anagram.go`
 
@@ -11,7 +11,7 @@ If desired, below I list two other previous code challenges and some open-source
 ---
 
 ## Esse repositório contem o código para o desafio do [hacker rank](hackerrank.com/)
-Infelizmente demorei 40 minutos a mais para concluir o código e confesso que demorei um pouco para entender o que deveria ser feito.
+Infelizmente demorei 40 minutos a mais para concluir o código e confesso que demorei um pouco para entender o que deveria ser feito. Como rodei poucos testes no hacker rank, não posso dizer com certeza se era preciso considerar a presença de mais de um anagrama em determinada sentença, mas o código nesse respositório trata isso corretamente.
 Apesar disso, espero que não seja suficiente para eliminar minhas possibilidades ou meu teste propriamente dito.
 ### Para executar os testes, supongo que o Go já está instalado, execute `go run iot.go` ou `go run anagram.go`
 
