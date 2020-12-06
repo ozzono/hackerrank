@@ -11,7 +11,7 @@ func main() {
 }
 
 func countSentences(wordSet []string, sentences []string) []int64 {
-	hasAnamagram := func(word, sentence string) bool {
+	countAnamagram := func(word, sentence string) int {
 		isAnamagram := func(w1, w2 string) bool {
 			if len(w1) != len(w2) || w1 == w2 {
 				return false
@@ -25,24 +25,27 @@ func countSentences(wordSet []string, sentences []string) []int64 {
 			return out
 		}
 
+		count := 0
 		for _, item := range strings.Split(sentence, " ") {
 			if isAnamagram(word, item) {
-				return true
+				count++
 			}
 		}
-		return false
+		return count
 	}
 
 	countCombinations := func(words []string, sentence string) int {
-		counts := []int{}
+		count := 0
 		for i := range words {
-			if hasAnamagram(words[i], sentence) {
-				counts = append(counts, 2)
+			anagrams := countAnamagram(words[i], sentence)
+			if anagrams > 0 {
+				fmt.Println(anagrams)
+				if count == 0 {
+					count = 1
+				}
+				count *= 2 * *&anagrams
+				fmt.Printf("count: %d\n", count)
 			}
-		}
-		count := 1
-		for i := range counts {
-			count = count * counts[i]
 		}
 		return count
 	}
