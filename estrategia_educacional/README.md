@@ -13,7 +13,7 @@ If desired, below I list two other previous code challenges and some open-source
 ## Esse repositório contem o código para o desafio do [hacker rank](hackerrank.com/)
 Infelizmente demorei 40 minutos a mais para concluir o código e confesso que demorei um pouco para entender o que deveria ser feito. Como rodei poucos testes no hacker rank, não posso dizer com certeza se era preciso considerar a presença de mais de um anagrama em determinada sentença, mas o código nesse respositório trata isso corretamente.
 Apesar disso, espero que não seja suficiente para eliminar minhas possibilidades ou meu teste propriamente dito.
-### Para executar os testes, supongo que o Go já está instalado, execute `go run iot.go` ou `go run anagram.go`
+### Para executar os testes, supondo que o Go já está instalado, execute `go run iot.go` ou `go run anagram.go`
 
 Se desejado, abaixo eu listo dois outros desafio de código além de código aberto mantido por mim:
 - [Desafio 1](https://github.com/hurbcom/challenge-bravo/compare/master...ozzono:master): Subir uma api para conversão de moedas regular ou cripto moedas consultando duas outras apis e gerenciando seus registros no MongoDB; possui testes automatizados;
